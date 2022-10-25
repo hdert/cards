@@ -1,0 +1,97 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Yew Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+      /* 
+cards colours
+white #F2F2F2
+black ##010101
+*/
+
+      /* this is to make the website go all the way to the edges of the website*/
+      html {
+        margin: 0%;
+        padding: 0%;
+        height: 100%;
+      }
+      /* this is to make the website go all the way to the edges of the website*/
+      body {
+        margin: 0%;
+        height: 100%;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header h1 {
+        text-align: center;
+        color: #010101;
+        font-family: Helvetica;
+      }
+
+      .promptdisplay {
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-family: Helvetica;
+        box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
+
+        border: 1px;
+        border-radius: 10px;
+        /*dimensions of a real card */
+        width: 63mm;
+        min-height: 88mm;
+
+        font-family: Helvetica;
+        font-size: 200%;
+        background-color: #010101;
+        color: #f2f2f2;
+      }
+
+      button {
+        background-color: #010101;
+        color: #f2f2f2;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px;
+
+        box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38); /*i stole this code! https://www.joshwcomeau.com/css/designing-shadows/*/
+
+        margin: 0;
+        /* position: absolute; */
+        /* left: 50%; */
+        width: 158px;
+        margin-bottom: 20px;
+        /* transform: translate(-50%, -90%); */
+      }
+
+      /*footer*/
+      .footer {
+        /* position: fixed; */
+        /* left: 0; */
+        background-color: #f2f2f2;
+        color: #010101;
+        /* bottom: 0; */
+        margin-top: auto;
+
+        padding: 0%;
+        width: 100%;
+        padding-bottom: 1px;
+
+        text-align: center;
+        font-size: 200%;
+
+        font-family: "Times New Roman", Times, serif;
+      }
+    </style>
+  
+<link rel="preload" href="/yew_example-963ce892f58830ae_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew_example-963ce892f58830ae.js"></head>
+<body>
+<script type="module">import init from '/yew_example-963ce892f58830ae.js';init('/yew_example-963ce892f58830ae_bg.wasm');</script></body></html>
