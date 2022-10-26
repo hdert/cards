@@ -52,7 +52,7 @@ impl Component for Model {
         html! {
             <>
                 <header>
-                    <h1>{ "Card Generator" }</h1>
+                    <h1>{ "Gart Card Generator - Rust Rewrite by Hdert" }</h1>
                 </header>
 
                 <div class="promptdisplay" id="cardDisplay">
@@ -63,9 +63,11 @@ impl Component for Model {
 
                 <footer class="footer">
                     // <object data="img/Copyleft.svg" type="image/svg+xml" style="height: 20px;"></object>
+                    { "© gareth" }
+                    <br />
                     <small>
                         // <!--I really want the copy left symbol-->
-                    { "big_man_gareth" }
+                        { "sorry safari/iPhone users" }
                     </small>
                 </footer>
             </>
