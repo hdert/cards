@@ -65,13 +65,12 @@ impl Component for Model {
                 <button onclick={link.callback(|_| Msg::NewPrompt)}>{ "New Prompt" }</button>
 
                 <footer class="footer">
-                    // <object data="img/Copyleft.svg" type="image/svg+xml" style="height: 20px;"></object>
-                    { "© gareth" }
+                    <img src={ "/assets/Copyleft.svg" } alt={ "Copyright symbol, but reversed to be a 'backwards' C." } style={ "height: 20px;" } />
+                    <p> { " gareth" } </p>
                     <br />
-                    <small>
-                        // <!--I really want the copy left symbol-->
-                        { "sorry safari/iPhone users" }
-                    </small>
+                    <p> { "applicable parts © hdert" } </p>
+                    <br />
+                    <small> { "sorry safari/iPhone users" } </small>
                 </footer>
             </>
         }
