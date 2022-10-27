@@ -83,3 +83,8 @@ button {
 
   font-family: "Times New Roman", Times, serif;
 }
+
+.footer small {
+  font-size: 10px;
+  padding: 0%;
+}
