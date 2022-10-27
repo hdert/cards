@@ -84,6 +84,11 @@ button {
   font-family: "Times New Roman", Times, serif;
 }
 
+.footer p {
+  margin: 0;
+  display: inline;
+}
+
 .footer small {
   font-size: 10px;
   padding: 0%;
