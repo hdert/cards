@@ -117,7 +117,7 @@ in the learning environment.",
                     <h1>{ "Gart Card Generator - Rust Rewrite by Hdert" }</h1>
                 </header>
 
-                <div class="promptdisplay" id="cardDisplay">
+                <div class="prompt-display" id="cardDisplay">
                     if self.prompt == " (card reader's) favorite website _______." {
                         <a href={ "https://ngtgyu.hdert.com/" }>{ "This is" }</a>
                     }
