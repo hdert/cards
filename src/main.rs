@@ -114,7 +114,10 @@ in the learning environment.",
         html! {
             <>
                 <header>
-                    <h1>{ "Gart Card Generator - Rust Rewrite by Hdert" }</h1>
+                    <h1>
+                        { "Gart Card Generator - Rust Rewrite by " }
+                        <a href={ "https://github.com/hdert/" }>{ "Hdert" }</a>
+                    </h1>
                 </header>
 
                 <div class="prompt-display" id="cardDisplay">
@@ -128,11 +131,12 @@ in the learning environment.",
 
                 <footer class="footer">
                     <img src={ "/assets/Copyleft.svg" } alt={ "Copyright symbol, but reversed to be a 'backwards' C." } style={ "height: 20px;" } />
-                    <p> { " gareth" } </p>
+                    <p> { " " } </p>
+                    <a href={ "https://github.com/GsnailG/" }>{ "gareth," }</a>
                     <br />
-                    <p> { "applicable parts © hdert" } </p>
+                    <p> { "applicable parts MIT license - hdert" } </p>
                     <br />
-                    <small> { "sorry safari/iPhone users" } </small>
+                    <small><a href={ "https://github.com/GsnailG/GsnailG.github.io/issues/20" }> { "sorry safari/iPhone users" } </a></small>
                 </footer>
             </>
         }
